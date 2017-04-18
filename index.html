@@ -16,8 +16,23 @@
   <script src="js/scripts.js"></script>
 </head>
 
-<body>
-<h1>Hi</h1>
-    <div id="div1">The text above has been created dynamically.</div>
+<body><div id="myDIV" class="header">
+  <h2>My To Do List</h2>
+  <input type="text" id="input" placeholder="Task...">
+    <input onclick ="addElement()" id = "addElement" class="addBtn" type = "submit">
+  <button onclick="addElement()" class="addBtn">Add</button>
+</div>
+
+<ul id="toDoList">
+    <!--Hardcoded elements to show example tasks>
+<!--
+  <li>Hit the gym</li>
+  <li class="checked">Pay bills</li>
+  <li>Meet George</li>
+  <li>Buy eggs</li>
+  <li>Read a book</li>
+  <li>Organize office</li>
+-->
+</ul>
 </body>
 </html>
